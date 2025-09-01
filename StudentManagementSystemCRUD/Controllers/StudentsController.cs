@@ -153,8 +153,5 @@ namespace StudentManagementSystemCRUD.Controllers
         {
             return _context.Students.Any(e => e.Id == id);
         }
-        
-
     }
-
 }
